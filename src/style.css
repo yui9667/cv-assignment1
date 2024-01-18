@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Archivo", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
+  font-family: "Playfair Display", serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Rubik", sans-serif;
+  font-family: "Signika Negative", sans-serif;
+}
+
+body {
+  background-color: #d89bdc;
+  color: #def0ed;
+}
+.info {
+  display: flex;
+  justify-content: center;
+  margin: 10%;
+  text-align: center;
+}
+.info .container-info {
+  padding: 20px;
+}
+img {
+  border-radius: 20%;
+  border-color: #8cc7db;
+  border-style: dotted;
+  height: auto;
+  width: 35%;
+}
+/* About me*/
+.description {
+  border-style: dotted;
+  margin: 10%;
+  padding: 5%;
+  text-align: center;
+}
+/* Education*/
+.contaniner-education {
+  text-align: center;
+  justify-content: center;
+  padding: 5%;
+}
+.container-school {
+  padding: 2%;
+}
+.education h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+/* Experience*/
+.experience h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+.container-experiece {
+  text-align: center;
+  justify-content: center;
+  padding: 5%;
+}
+.container-work {
+  padding: 2%;
+}
+
+/* Language*/
+.language h1 {
+  text-align: center;
+  font-size: 3rem;
+}
+.container-language {
+  text-align: center;
+  justify-content: center;
+  padding: 5%;
+}
+
+.container-word {
+  padding: 2%;
+}
+/*Footer*/
+footer {
+  background-color: #8cc7db;
+  padding: 5%;
+}
+footer p {
+  text-align: center;
+  padding: 10px;
+}
+/*Responsible Design */
+@media screen and (min-width: 700px) {
+  .container-info {
+    font-size: 2rem;
+    margin-top: 10%;
+  }
+}
+@media screen and (min-width: 900px) {
+  .container-info {
+    font-size: 2rem;
+    margin-top: 10%;
+  }
+
+  .contaniner-education {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding: 10%;
+    text-align: center;
+  }
+  .container-school {
+    width: 40%;
+  }
+}
